@@ -1,14 +1,14 @@
-import React from 'react';
-import Herosection from './components/Herosection';
-import Second from './components/Second';
+import React from 'react'
+import First from './components/First'
+import Second from './components/Second'
 
 const App = () => {
   return (
     <>
-      <Herosection />
-      <Second />
+    <First/>
+    <Second/>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
